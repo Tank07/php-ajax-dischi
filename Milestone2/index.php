@@ -21,9 +21,9 @@
 
     <div id="app">
 
-    <div v-for="(element,index) in dischi" class="carte row col-2">
+    <div v-for="(element,index) in dischi" class="carte row col-2 m-2">
 
-        <img src="{{element.poster}}" alt="">
+        <img :src="`${element.poster}`" alt="" style="" class="py-2">
         <h3 class='text-white'>{{element.title}}</h3>
         <h6 class='text-muted'>{{element.author}}</h6>
         <h6 class='text-muted'>{{element.year}}</h6>
