@@ -70,6 +70,11 @@ Attraverso un’altra chiamata api, filtrare gli album per genere -->
     body{
         background-color: #1e2d3b;
     }
+
+    /* .carte{
+        background-color: #2e3a46;
+    } */
+    
 </style>
 </head>
 <body>
